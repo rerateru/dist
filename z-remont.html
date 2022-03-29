@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Создать заявку на ремонт</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="left-side-nav">
+    <div class="nav-mob">
+        <div class="nav-mob__btn"></div>
+    </div>
+
+    <div class="side-nav">
+        <div class="user">
+            <div class="user__photo img-block">
+                <img src="img/user.jpg" alt="user-icon" class="img-user" />
+            </div>
+            <div class="user__info">
+                <div class="user__name">Денис</div>
+                <div class="user__nickname">@denisrozhkov</div>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_1.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Настройки аккаунта
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_2.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Мои заявки
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="nav-title">Компания</div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_3.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Моя компания
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_4.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Отзывы на компанию
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_5.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Заявки на ремонт
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_6.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Виджеты и аналитика
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <img src="img/i_7.svg" width="15" alt="" class="nav__icon-img" />
+                        </span>
+                        Настройка компании
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="log-out">
+        <img src="img/i_8.svg" alt="log-out" width="20" class="log-out__img" />
+        <span class="log-out__text">Выйти из аккаунта</span>
+    </div>
+</div>
+
+    <div class="content-page">
+        <div class="content-row">
+            <div class="title-page title-grow">Создать заявку на ремонт</div>
+            <div class="btns">
+                <div class="btn">
+                    Назад
+                </div>
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="profile__item">                
+                <div class="profile__form form-p">
+                    <div class="form-p__row">
+                        <div class="form-p__label">Что нужно сделать?</div>
+                        <input type="text" placeholder="Например, “Ремонт квартиры под ключ”..." class="form-p__input">
+                    </div>
+                    <div class="form-p__row">
+                        <div class="form-p__label">Укажите объем и виды работ</div>
+                        <textarea name=""
+placeholder="1. Напише какие работы необходимы
+2. Опишите ваш объект, год сдачи, текущий ремонт
+3. Опишите ваши пожелания и требования" class="form-p__textarea"></textarea>
+                    </div>
+
+                    <div class="form-p__row d-flex">
+                        <div class="form-check">
+                            <input class="form-p__check" type="radio" name="RadioOptions" id="r1" value="option1">
+                            <label class="form-p__check-label d-flex" for="r1">Ремонт в ванной</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-p__check" type="radio" name="RadioOptions" id="r2" value="option2">
+                            <label class="form-p__check-label d-flex" for="r2">Капитальный ремонт</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-p__check" type="radio" name="RadioOptions" id="r3" value="option3">
+                            <label class="form-p__check-label d-flex" for="r3">Рольшторы</label>
+                        </div>
+                    </div>
+
+                    <div class="form-p__row">
+                        <div class="form-p__label">Укажите бюджет</div>
+                        <input type="text" placeholder="Например, от 150 000 до 300 000 руб..." class="form-p__input">
+                    </div>
+
+                    <div class="form-p__row">
+                        <div class="form-p__label">Укажите площадь</div>
+                        <input type="text" placeholder="Например, 80 кв. м." class="form-p__input">
+                    </div>
+
+                    <div class="form-p__row">
+                        <div class="form-p__label">Выберите тип объекта</div>
+                        <input type="text" placeholder="Новостройка" class="form-p__input">
+                    </div>
+
+                    <div class="form-p__row">
+                        <div class="form-p__label">Адрес квартиры</div>
+                        <input type="text" placeholder="Указать адрес..." class="form-p__input">
+                    </div>
+
+                    <div class="form-p__row">
+                        <input type="submit" value="+7 (999) 999-99-99" class="form-p__sub-btn btn-orange">
+                        <div class="form-p__label label-com">
+                            Нажимая “Опубликовать” вы подтверждаете согласие с
+                            <a href="">Пользовательским соглашением</a>
+                            и
+                            <a href="">Политикой в отношение обработки персональных данных</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile__banner">
+                <div class="banner-f">
+                    <div class="review-b">
+                        <div class="review-b__title">Лучшая компания месяца:</div>
+                        <div class="review-b__user user-r d-flex">
+                            <div class="user-r__img d-flex img-block">
+                                <img src="img/com-user.jpg" alt="СМ-Ремонт" />
+                            </div>
+                            <div class="user-r__info d-flex">
+                                <div class="user-r__title">СМ-Ремонт</div>
+                                <div class="rating d-flex">
+                                    <ul class="rating__list d-flex">
+                                        <li class="rating__item"></li>
+                                        <li class="rating__item dis"></li>
+                                        <li class="rating__item dis"></li>
+                                        <li class="rating__item dis"></li>
+                                        <li class="rating__item dis"></li>
+                                    </ul>
+                                    <div class="rating__number">1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-b__text">
+                            <p><b>Выполненных работ:</b> 244</p>
+                            <p><b>Количество отзывов:</b> 200</p>
+                        </div>
+                        <div class="btn-orange d-flex">+7 (999) 999-99-99</div>
+                        <div class="btn-white d-flex">Заказать звонок</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/script.js"></script>
